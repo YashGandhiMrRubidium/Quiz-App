@@ -62,7 +62,6 @@ function startQuiz() {
 }
 
 function showQuestion() {
-    resetState()
     console.log("show")
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = (currentQuestionIndex + 1);
