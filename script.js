@@ -1,51 +1,97 @@
 const questions = [
     {
-        question: "one hello World",
+        question: "What is the traditional greeting in computer programming that outputs 'Hello, World!'?",
         answers: [
-            { text: "ans A", correct: false },
-            { text: "ans B", correct: false },
-            { text: "ans C", correct: false },
-            { text: "ans D", correct: true },
+            { text: "Option A", correct: false },
+            { text: "Option B", correct: false },
+            { text: "Option C", correct: false },
+            { text: "Option D", correct: true },
         ]
     },
     {
-        question: "two",
+        question: "In which programming language is the 'printf' function commonly used?",
         answers: [
-            { text: "ans A", correct: false },
-            { text: "ans B", correct: false },
-            { text: "ans C", correct: false },
-            { text: "ans D", correct: true },
+            { text: "Option A", correct: false },
+            { text: "Option B", correct: false },
+            { text: "Option C", correct: false },
+            { text: "Option D", correct: true },
         ]
     },
     {
-        question: "3",
+        question: "How many bits are in a byte?",
         answers: [
-            { text: "ans A", correct: false },
-            { text: "ans B", correct: false },
-            { text: "ans C", correct: false },
-            { text: "ans D", correct: true },
+            { text: "Option A", correct: false },
+            { text: "Option B", correct: false },
+            { text: "Option C", correct: false },
+            { text: "Option D", correct: true },
         ]
     },
     {
-        question: "4",
+        question: "What is the result of 2 + 2?",
         answers: [
-            { text: "ans A", correct: false },
-            { text: "ans B", correct: false },
-            { text: "ans C", correct: false },
-            { text: "ans D", correct: true },
+            { text: "Option A", correct: false },
+            { text: "Option B", correct: false },
+            { text: "Option C", correct: false },
+            { text: "Option D", correct: true },
         ]
     },
     {
-        question: "5",
+        question: "Which programming language is known for its use in web development and is often associated with front-end development?",
         answers: [
-            { text: "ans A", correct: false },
-            { text: "ans B", correct: false },
-            { text: "ans C", correct: false },
-            { text: "ans D", correct: true },
+            { text: "Option A", correct: false },
+            { text: "Option B", correct: false },
+            { text: "Option C", correct: false },
+            { text: "Option D", correct: true },
+        ]
+    },
+    // Additional questions
+    {
+        question: "What is the capital of Japan?",
+        answers: [
+            { text: "Option A", correct: false },
+            { text: "Option B", correct: false },
+            { text: "Option C", correct: false },
+            { text: "Option D", correct: true },
+        ]
+    },
+    {
+        question: "Who wrote the play 'Romeo and Juliet'?",
+        answers: [
+            { text: "Option A", correct: false },
+            { text: "Option B", correct: false },
+            { text: "Option C", correct: false },
+            { text: "Option D", correct: true },
+        ]
+    },
+    {
+        question: "What is the largest planet in our solar system?",
+        answers: [
+            { text: "Option A", correct: false },
+            { text: "Option B", correct: false },
+            { text: "Option C", correct: false },
+            { text: "Option D", correct: true },
+        ]
+    },
+    {
+        question: "In which year did the Titanic sink?",
+        answers: [
+            { text: "Option A", correct: false },
+            { text: "Option B", correct: false },
+            { text: "Option C", correct: false },
+            { text: "Option D", correct: true },
+        ]
+    },
+    {
+        question: "What is the main ingredient in guacamole?",
+        answers: [
+            { text: "Option A", correct: false },
+            { text: "Option B", correct: false },
+            { text: "Option C", correct: false },
+            { text: "Option D", correct: true },
         ]
     }
-];
-
+  ];
+  
 let questionElement = document.getElementById("question");
 let answerButtons = document.getElementById("answer-buttons");
 let nextButton = document.getElementById("next-btn");
